@@ -2,13 +2,67 @@
 
 <html>
   <head>
-    <title>INSERT TITLE HERE!</title>
+    <title>AB Testing</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="index.css">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <!-- TODO: add additional links here! e.g. fonts, icons, more stylesheets, etc. -->
     <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
   </head>
 
   <body>
-    <!-- TODO: put your HTML code here! -->
+    <div class="container">  
+      <div class="page" id="part0data"> <h1>Part 0: Making & Deploying the Websites      </h1>
+        <a href="https://protected-reef-01556.herokuapp.com/">This is a link</a> to my modified html files: 
+    <br>
+      </div>
+
+    <div class="page" id="part1data"> <h1>Part 1: Creating Hypotheses for Statistical Tests
+    </h1>
+    <h2 class="subheadings"> Time to Completion:</h2>
+    <ul>
+      <li>
+        Null hypothesis: Average time to completion for interface A will be lower than time to completion for interface B. Therefore, interface A performs better for this metric.
+      </li>
+      <li>
+        Alternative hypothesis: Average time to completion for interface B will be lower than time to completion for interface A. Therefore, interface B performs better for this metric.
+      </li>
+    </ul>
+  <h2 class="subheadings"> Reasoning behind Alternative Hypothesis:</h2>
+    The font-size of text on interface B is larger than that of interface A. This may make the text easier to read. Additionally, the background colours of the page are lighter (white-adjacent) with a dark grey text. Lastly, the text is left-aligned. This means that interface B may be easier to skim-read and less daunting to navigate quickly because many websites and hard-copy texts contain left-aligned text of a dark color over a lighter background. For this reason, the user may be more used to, and consequently more comfortable, viewing webpages that have a similar design. 
+  <br> On the other hand, interface A has a black background with white text that is center-aligned. The font is also smaller than the font used for interface B. This design may draw attention to the minimal text but the font size may make it less easy to read quickly. Therefore, users may need to spend more time on the page to get to completion.
+  
+  <h2 class="subheadings"> Return Rate:</h2>
+  <ul>
+    <li>  Null hypothesis: There will be a significant difference in performance on this (return rate) metric between interface A and interface B.    </li>
+    <li>  Alternative hypothesis: There will be no significant difference in performance on this (return rate) metric between interface A and interface B.    </li>
+</ul>
+  <h3 class="subheadings"> Reasoning behind Alternative Hypothesis:</h2>
+  I did not make any conscious changes to either interface that might inspire or dissuade the user from returning to the homepage. The cart buttons are identical for both interfaces, they are also placed in the same position relative to the rest of the text on each interface’s homepage. The checkout page for both interfaces is also identical. 
+</div>
+
+
+  <div class="page" id="part3data"><h1>Part 3: Conclusions and Takeaways
+  </h1>
+<br>
+Below is my infographic:
+<img src="infographic.png" alt="" class="image1">
+<h2 class="subheadings"> Results and Broad Takeaways:</h2>
+
+<ul>
+  <li>
+    I think that the number of users that I got was a limitation that affected the results of my test. I think that if I had gotten more users, my results could have been more statistically significant for the return-rate metric.
+  </li>
+  <li>
+    The fact that interface B performed better than interface A for the ‘time to completion’ metric suggests that  users are able to perform tasks more easily using interfaces with larger, more legible font. Increased legibility may lend  to increased usability. 
+  </li>
+  <li>  I was not surprised that for the return rate metric, I failed to reject the null hypothesis because one interface had a significantly higher return rate than the other. However, I was surprised that it was interface B that had the higher return rate. This made me realise that a high return rate on its own may not mean that a user is having a bad experience with the interface. 
+  </li>
+  <li>  Similarly, a lower time to completion, on its own, does not necessarily mean that one interface performs better than the other.
+  </li>
+</ul>
+</div>
   </body>
 </html>

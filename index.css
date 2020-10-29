@@ -1,1 +1,73 @@
 /* Put your style information here! */
+
+html, body {
+    height: 100%;
+    }
+    
+html {
+    display: table;
+    margin: auto;
+    }
+
+
+body{
+    background-color: #111010;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Patrick Hand', cursive;
+}
+
+h1{
+    font-size: 45px;
+    color: aliceblue;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+h2{
+    margin-top: 5%;
+    margin-bottom: 3%;
+    color: rgb(223, 196, 196) !important;
+}
+
+.subheadings{
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+
+
+
+.image1{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    border-style: dotted;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.page {
+    font-size: 24px;
+    color: aliceblue;
+}
+
+.bg-light {
+    background-color: rgb(223, 196, 196) !important;
+    height: 60px;
+    }
+
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 49%;
+
+    }
+    
+@media only screen and (max-width: 1200px) {
+     .responsive {
+        width: 100%;
+    }
+}
